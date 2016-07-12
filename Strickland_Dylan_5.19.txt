@@ -1,0 +1,5 @@
+5.19
+
+1. The script calls the alert method to display the string “Hello”.
+2. The script creates a variable named ‘alert’ and assigns it a value of “2”. This replaces the previous use of alert as a method call.
+3. Since, within this script, alert is now a variable, the script generates a TypeError when it is used as a method call.

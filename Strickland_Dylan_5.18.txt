@@ -1,0 +1,8 @@
+5.18
+
+1. The script calls the shout method.
+2. the shout method creates the variable: message, and assigns it the value of “Hey You”.
+3. The shout method then calls the alert method to display the message variable which contains the 
+“HEY YOU” string.
+4. The script exits the shout method.
+5. The script calls the alert method to display the variable: message. Since the message variable was created inside the shout method, it is a local variable, and not accessible to the rest of the script. The script therefore generates an ReferenceError, as it can’t find a variable named message.

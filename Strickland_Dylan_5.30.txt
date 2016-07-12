@@ -1,0 +1,8 @@
+5.30
+
+a) new Date() creates a new date object with the current date and time.
+
+b) new Date(2009,0, 20) creates a new date object with the value of january 20, 2009 00:00:00. 
+This value is stored as the difference, in milliseconds, between that date and January 1, 1970 00:00:00(UTC).
+
+c)d1. valueOf() - d2. valueOf() produces the difference (in milliseconds) between the two dates.
